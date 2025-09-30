@@ -1,4 +1,5 @@
-.yes{background-image:url(img/7924155.webp);background-attachment: fixed;background-size: cover;background-position: center;padding: 0px;margin: 0px;}
+.yes{background-image:url(img/7924155.webp);background-attachment: fixed;background-size:cover;
+    background-repeat: no-repeat;background-position: center;padding: 0px;margin: 0px;}
     .div1{display: flex; width: 100%;flex-direction: column;justify-content: center;align-items: center;}
     .do{margin-top: 50px;max-width: 650px;height: 40px;font-size: 25px;color: rgb(68, 70, 70);font-family: sans-serif;border-radius: 5px;box-shadow: inset 1px 1px 0.4px rgba(0, 0,0, 0.5);flex: 1;}
     .do::placeholder{padding: 80px;}
@@ -21,5 +22,8 @@
 .time{color: white;font-size: 50px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 700;margin: 0;margin-top: 70px;}
 body{margin: 0px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .display{display: none;}
-@keyframes show {0%{margin-left: -450px;}}
+@keyframes show {0%{margin-right: -450px;}}
 .input{display: flex;width: 100%;justify-content: center;}
+@media(max-width:500px){
+    .yes{background-size: 100% 100%;}
+}
