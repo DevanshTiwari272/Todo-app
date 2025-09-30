@@ -91,7 +91,7 @@ function change2()
      } 
       sound2.forEach((voice,index)=>{soundGroup+= `<audio class="c${index}" src="${voice}"></audio> `} )
       document.querySelector('.sand-js').innerHTML=`${soundGroup}`
-}
+console.log(soundGroup)}
 function sin()
 {
     let l;
@@ -116,3 +116,4 @@ let hour =clock.getHours().toString().padStart(2,'0')
 let min = clock.getMinutes().toString().padStart(2,'0')
 let sec = clock.getSeconds().toString().padStart(2,'0')
   document.querySelector('.js-time').innerHTML=`${hour}: ${min} :${sec}`},1000)
+
