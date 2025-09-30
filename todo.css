@@ -17,11 +17,9 @@
     .yes2,.black{background-image:url(img/manofculture.gif) ;background-size: cover;background-repeat: no-repeat;}
 .heading{font-size: 80px;margin: 0px;text-align: center;}
 .ta{border: solid;height: 100%;width: 100%;position: relative;}
-.contain{display: flex;overflow: hidden;height:100%}
+.contain{display: flex;overflow: hidden;width: 100%;position: relative;height: 100%;}
 .time{color: white;font-size: 50px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 700;margin: 0;margin-top: 70px;}
 body{margin: 0px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .display{display: none;}
 @keyframes show {0%{margin-left: -450px;}}
-
 .input{display: flex;width: 100%;justify-content: center;}
-
