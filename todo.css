@@ -24,8 +24,9 @@ body{margin: 0px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .display{display: none;}
 @keyframes show {0%{margin-right: -450px;}}
 .input{display: flex;width: 100%;justify-content: center;}
-@media(max-width:1000px){
+@media screen and (max-width:6000px){
     .yes{background-size: 100% 100%;}
 }
+
 
 
